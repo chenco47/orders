@@ -1,0 +1,35 @@
+{
+  "fruits": [
+    { "id": "apple", "title": "תפוחים אדומים", "image": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=400&h=400&fit=crop", "price": 12.90, "category": "fruits" },
+    { "id": "banana", "title": "בננות", "image": "https://images.unsplash.com/photo-1603833665858-e61d17a86224?w=400&h=400&fit=crop", "price": 9.90, "category": "fruits" },
+    { "id": "cucumber", "title": "מלפפונים", "image": "https://images.unsplash.com/photo-1604977042946-1eecc30f269e?w=400&h=400&fit=crop", "price": 7.50, "category": "fruits" },
+    { "id": "tomato", "title": "עגבניות", "image": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?w=400&h=400&fit=crop", "price": 8.90, "category": "fruits" },
+    { "id": "carrot", "title": "גזר", "image": "https://images.unsplash.com/photo-1447175008436-054170c2e979?w=400&h=400&fit=crop", "price": 6.50, "category": "fruits" },
+    { "id": "pepper", "title": "פלפל אדום", "image": "https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?w=400&h=400&fit=crop", "price": 11.90, "category": "fruits" }
+  ],
+  "dairy": [
+    { "id": "milk", "title": "חלב 3% שופרסל", "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?w=400&h=400&fit=crop", "price": 6.90, "category": "dairy" },
+    { "id": "cheese", "title": "גבינה צהובה", "image": "https://images.unsplash.com/photo-1452195100486-9cc805987862?w=400&h=400&fit=crop", "price": 25.90, "category": "dairy" },
+    { "id": "yogurt", "title": "יוגורט טבעי", "image": "https://images.unsplash.com/photo-1571212515416-8bb3d5b4a4d5?w=400&h=400&fit=crop", "price": 4.50, "category": "dairy" },
+    { "id": "butter", "title": "חמאה", "image": "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?w=400&h=400&fit=crop", "price": 8.90, "category": "dairy" }
+  ],
+  "frozen": [
+    { "id": "ice-cream", "title": "גלידה וניל", "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=400&h=400&fit=crop", "price": 16.90, "category": "frozen" },
+    { "id": "frozen-vegetables", "title": "ירקות קפואים", "image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=400&h=400&fit=crop", "price": 12.50, "category": "frozen" },
+    { "id": "frozen-pizza", "title": "פיצה קפואה", "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=400&fit=crop", "price": 22.90, "category": "frozen" }
+  ],
+  "bakery": [
+    { "id": "bread", "title": "לחם פרוס", "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&h=400&fit=crop", "price": 5.90, "category": "bakery" },
+    { "id": "croissant", "title": "קרואסון", "image": "https://images.unsplash.com/photo-1555507036-ab794f4ade6a?w=400&h=400&fit=crop", "price": 3.50, "category": "bakery" },
+    { "id": "bagel", "title": "בייגל", "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=400&fit=crop", "price": 4.90, "category": "bakery" }
+  ],
+  "meat": [
+    { "id": "chicken", "title": "עוף שלם", "image": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?w=400&h=400&fit=crop", "price": 28.90, "category": "meat" },
+    { "id": "beef", "title": "בשר בקר טחון", "image": "https://images.unsplash.com/photo-1588347818017-74c3e24b4b71?w=400&h=400&fit=crop", "price": 45.90, "category": "meat" }
+  ],
+  "beverages": [
+    { "id": "water", "title": "מים מינרליים", "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400&h=400&fit=crop", "price": 3.90, "category": "beverages" },
+    { "id": "juice", "title": "מיץ תפוזים", "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400&h=400&fit=crop", "price": 8.90, "category": "beverages" },
+    { "id": "soda", "title": "קוקה קולה", "image": "https://images.unsplash.com/photo-1561758033-d89a9ad46330?w=400&h=400&fit=crop", "price": 6.50, "category": "beverages" }
+  ]
+} 

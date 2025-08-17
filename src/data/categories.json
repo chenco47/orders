@@ -1,0 +1,8 @@
+[
+  { "id": "fruits", "name": "פירות וירקות", "slug": "fruits" },
+  { "id": "dairy", "name": "מוצרי חלב", "slug": "dairy" },
+  { "id": "frozen", "name": "קפואים", "slug": "frozen" },
+  { "id": "bakery", "name": "מאפים ולחמים", "slug": "bakery" },
+  { "id": "meat", "name": "בשר ועוף", "slug": "meat" },
+  { "id": "beverages", "name": "משקאות", "slug": "beverages" }
+] 
