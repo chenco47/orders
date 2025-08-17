@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background -->
+  <rect width="200" height="200" fill="#f8f9fa"/>
+  
+  <!-- Pepper body -->
+  <path d="M70 80 Q75 60, 90 55 Q110 50, 130 55 Q145 60, 150 80 Q155 100, 150 120 Q145 140, 135 150 Q120 160, 100 165 Q80 160, 65 150 Q55 140, 50 120 Q45 100, 50 80 Q55 70, 70 80" fill="#dc2626"/>
+  
+  <!-- Pepper highlight -->
+  <path d="M75 85 Q80 70, 95 68 Q110 65, 125 68 Q135 70, 140 85 Q143 100, 140 115 Q135 130, 125 135 Q110 140, 95 135 Q85 130, 80 115 Q77 100, 75 85" fill="#ef4444"/>
+  
+  <!-- Pepper shine -->
+  <ellipse cx="90" cy="90" rx="15" ry="20" fill="#fca5a5" opacity="0.6"/>
+  
+  <!-- Pepper stem -->
+  <ellipse cx="100" cy="55" rx="8" ry="10" fill="#16a34a"/>
+  <rect x="98" y="45" width="4" height="12" fill="#92400e"/>
+  
+  <!-- Pepper segments -->
+  <path d="M65 95 Q100 90, 135 95" stroke="#b91c1c" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M60 115 Q100 110, 140 115" stroke="#b91c1c" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M70 135 Q100 130, 130 135" stroke="#b91c1c" stroke-width="1" fill="none" opacity="0.3"/>
+</svg> 

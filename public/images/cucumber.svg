@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background -->
+  <rect width="200" height="200" fill="#f8f9fa"/>
+  
+  <!-- Cucumber body -->
+  <ellipse cx="100" cy="100" rx="25" ry="70" fill="#16a34a"/>
+  <ellipse cx="95" cy="95" rx="20" ry="65" fill="#22c55e"/>
+  
+  <!-- Cucumber stripes -->
+  <ellipse cx="90" cy="70" rx="15" ry="8" fill="#16a34a" opacity="0.3"/>
+  <ellipse cx="90" cy="90" rx="15" ry="8" fill="#16a34a" opacity="0.3"/>
+  <ellipse cx="90" cy="110" rx="15" ry="8" fill="#16a34a" opacity="0.3"/>
+  <ellipse cx="90" cy="130" rx="15" ry="8" fill="#16a34a" opacity="0.3"/>
+  
+  <!-- Cucumber highlight -->
+  <ellipse cx="85" cy="85" rx="8" ry="40" fill="#86efac" opacity="0.7"/>
+  
+  <!-- Small bumps -->
+  <circle cx="80" cy="75" r="2" fill="#16a34a"/>
+  <circle cx="85" cy="95" r="2" fill="#16a34a"/>
+  <circle cx="80" cy="115" r="2" fill="#16a34a"/>
+</svg> 

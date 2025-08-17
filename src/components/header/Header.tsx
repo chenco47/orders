@@ -30,17 +30,21 @@ export default function Header() {
       {/* Main Header */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          {/* Logo */}
-          <Link href="/" className="flex items-center">
-            <Image
-              src="https://www.shufersal.co.il/online/medias/sys_master/root/h18/hc4/11095082172446/logo-online.png"
-              alt="שופרסל אונליין"
-              width={120}
-              height={40}
-              className="h-8 w-auto"
-              priority
-            />
-          </Link>
+          {/* Cart Button - Left Side */}
+          <Button
+            variant="outline"
+            size="default"
+            onClick={() => setIsOpen(true)}
+            className="relative flex items-center gap-2"
+          >
+            <ShoppingCart className="h-5 w-5" />
+            <span>הסל שלך</span>
+            {itemCount > 0 && (
+              <span className="absolute -top-2 -right-2 bg-primary text-white text-xs rounded-full h-6 w-6 flex items-center justify-center">
+                {itemCount}
+              </span>
+            )}
+          </Button>
 
           {/* Search Bar */}
           <div className="flex-1 max-w-2xl mx-8">
@@ -51,26 +55,23 @@ export default function Header() {
                 placeholder="חיפוש מוצרים..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full h-12 pr-12 pl-4 rounded-lg border border-border focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                className="w-full h-12 pr-12 pl-4 rounded-lg border border-border focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent text-right"
+                dir="rtl"
               />
             </div>
           </div>
 
-          {/* Cart Button */}
-          <Button
-            variant="outline"
-            size="default"
-            onClick={() => setIsOpen(true)}
-            className="relative flex items-center gap-2"
-          >
-            <ShoppingCart className="h-5 w-5" />
-            <span>הסל שלך</span>
-            {itemCount > 0 && (
-              <span className="absolute -top-2 -left-2 bg-primary text-white text-xs rounded-full h-6 w-6 flex items-center justify-center">
-                {itemCount}
-              </span>
-            )}
-          </Button>
+          {/* Logo - Right Side */}
+          <Link href="/" className="flex items-center">
+            <Image
+              src="https://www.shufersal.co.il/online/medias/sys_master/root/h18/hc4/11095082172446/logo-online.png"
+              alt="שופרסל אונליין"
+              width={120}
+              height={40}
+              className="h-8 w-auto"
+              priority
+            />
+          </Link>
         </div>
       </div>
 

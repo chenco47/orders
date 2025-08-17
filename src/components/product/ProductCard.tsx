@@ -56,9 +56,9 @@ export default function ProductCard({ product }: ProductCardProps) {
           <Button 
             onClick={handleAddToCart}
             size="sm"
-            className="text-sm"
+            className="text-sm text-white"
           >
-            הוסף לסל
+            בחירה
           </Button>
         </div>
       </div>
